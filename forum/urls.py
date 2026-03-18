@@ -1,3 +1,4 @@
+
 from django.urls import path
 
 from . import views
@@ -17,4 +18,3 @@ urlpatterns = [
          views.InserirRespostaView.as_view(), name="inserir_resposta"),
 
 ]
-    
